@@ -15,6 +15,23 @@ public class HomeController {
 	}
 
 
+    @RequestMapping(value="/send")
+    public String send(Model model) {
+        return "home/index";
+    }
+
+
+
+
+
+//	TODO metodo para enviar mensagem para RabbitMQ
+//	TODO loop para obter retorno do processamento no RabbitMQ
+//	TODO código em Scala para fazer o processamento
+
+
+
+//  TODO adicionar /admin
+//  TODO adicionar bootstrap no /admin
 
 
 }
